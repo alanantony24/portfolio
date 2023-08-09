@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alan's Portfolio</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+
+  <body>
     <main>
-        <div>
-            <h2>Hello World, I am Alan :D</h2>
+      <div class="mainContainer">
+        <div class="navbarContainer">
+          <nav id="navBar">
+            <div class="headerLogo">
+              <h2>alan.dev</h2>
+            </div>
+            <div class="navItems">
+              <nav>
+                <a href="#">about</a>
+                <a href="#">projects</a>
+                <a href="#">contact</a>
+              </nav>
+            </div>
+          </nav>
         </div>
-        <div>
-            This website serves as both a showcase and a launch pad for <br>
-            some of the projects I have in mind. I hope I don't put them <br>
-            off and finish them :D
+        <div class="imageDescContainer">
+          <div class="imageContainer">
+            <img
+              src="images/profilePic.jpg"
+              width="300px"
+              alt="Alan Antony James"
+            />
+          </div>
+          <div class="descContainer">
+            <h1>Hello World, I am Alan :D</h1>
+            <p>
+              This website serves as both a showcase and a launch pad for <br />
+              some of the projects I have in mind. I hope I don't put them
+              <br />
+              off and finish them :D
+            </p>
+          </div>
         </div>
-        <div>
-            <a href="https://github.com/alanantony24">My Github (it's kinda lame but I am working on it.)</a><br>
-            <a href="https://www.linkedin.com/in/alan-antony-james/">My LinkedIn (I don't have much to flex, but I just have one for the heck of it.)</a>
+
+        <div class="footerContainer">
+          <footer>
+            <a href="https://github.com/alanantony24"
+              >My Github (it's kinda lame but I am working on it.)</a
+            ><br />
+            <a href="https://www.linkedin.com/in/alan-antony-james/"
+              >My LinkedIn (I don't have much to flex, but I just have one for
+              the heck of it.)</a
+            >
+          </footer>
         </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
