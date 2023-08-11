@@ -1,54 +1,108 @@
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
 .mainContainer {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
 }
 /*Navigation Bar*/
 .navbarContainer {
-	width: 100vw;
+  width: 100vw;
 }
 
 #navBar {
-    display: flex;
-	justify-content: space-between;
-	margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
 }
 
 .navItems {
-	width: 25%;
+  width: 25%;
 }
 
 .navItems > nav {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 /*Image and Description*/
 .imageDescContainer {
-	width: 100vw;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .imageDescContainer > div {
-	margin: 30px;
+  margin: 30px;
 }
 
 .footerContainer {
-	width: 25%;
+  width: 25%;
 }
 
 .footerContainer > footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
+.projectPic {
+  width: 65%;
+  height: 60%;
+}
 
+.projectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.projectsTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
+.projectContainer {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
 
+.projectContainer p {
+  padding: 0.4rem;
+}
 
+.projectTitle {
+  margin-bottom: var(--bottom-margin);
+}
+
+.projectDetails {
+  margin-bottom: var(--bottom-margin);
+}
+
+.projectCard {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
