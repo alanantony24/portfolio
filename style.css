@@ -37,6 +37,17 @@
 	margin: 30px;
 }
 
+.footerContainer {
+	width: 25%;
+}
+
+.footerContainer > footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
 
 
 
