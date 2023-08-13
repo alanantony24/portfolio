@@ -66,8 +66,9 @@
 }
 
 .projectPic {
-  width: 65%;
-  height: 60%;
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
 }
 
 .projectsContainer {
@@ -84,6 +85,7 @@
 .projectContainer {
   text-align: center;
   width: 21.875rem;
+  height: 90%;
   padding: 1rem;
 }
 
