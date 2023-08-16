@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   margin: 30px;
+  font-size: 25px;
 }
 
 .navItems {
@@ -49,6 +50,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 20px;
+}
+
+.descContainer {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 25px;
+}
+.name {
+  font-weight: bold;
+}
+.major {
+  font-style: italic;
 }
 
 .imageDescContainer > div {
