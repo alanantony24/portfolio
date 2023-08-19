@@ -45,6 +45,23 @@
   justify-content: space-between;
 }
 /*Image and Description*/
+.imageContainer{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Adjust the size as needed for a larger circle */
+    height: 300px; /* Adjust the size as needed for a larger circle */
+    border: 6px solid #343635; /* Use a green border color */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Clips the image to the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+
+.image-container img {
+  width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+    display: block; /* Removes any extra spacing due to inline-block */
+}
 .imageDescContainer {
   width: 100vw;
   display: flex;
