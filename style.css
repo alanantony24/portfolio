@@ -79,6 +79,10 @@
   border-radius: 10px;
   line-height: 35px;
 }
+
+.descContainer > h1 {
+  color: black;
+}
 .name {
   font-weight: bold;
 }
@@ -155,8 +159,8 @@
 
 .skillsContainer > h1 {
   text-align: center;
-  color: white;
 }
+
 .skillsContainer img {
   padding: 1.25rem;
 }

@@ -31,6 +31,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
+	color: white;
 }
 
 nav {
@@ -52,6 +53,11 @@ body {
 	background-size: cover;
 	line-height: 1;
 }
+
+a {
+	color: white;
+}
+
 ol, ul {
 	list-style: none;
 }
