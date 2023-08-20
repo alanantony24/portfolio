@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   </head>
   <body>
     <main>
@@ -31,14 +32,14 @@
             </div>
             <div class="navItems">
               <nav>
-                <a href="#">about</a>
-                <a href="#">projects</a>
-                <a href="#">contact</a>
+                <a href="#imageDescContainer">about</a>
+                <a href="#skillsContainer" onclick="scrollTo()">skills</a>
+                <a href="#projectsContainer" onclick="scrollTo()">projects</a>
               </nav>
             </div>
           </nav>
         </div>
-        <div class="imageDescContainer">
+        <div id="imageDescContainer" class="imageDescContainer">
           <div class="imageContainer">
             <img
               src="images/profilePic.jpg"
@@ -70,7 +71,8 @@
             </p>
           </div>
         </div>
-        <div class="skillsContainer">
+        <div id="skillsContainer" class="skillsContainer">
+          <h1>Skills I have</h1>
           <div class="firstSet animate__animated animate__pulse">
             <img
               src="images/reactIcon.png"
@@ -124,7 +126,8 @@
             />
           </div>
         </div>
-        <div class="projectsContainer">
+        <h1>Projects I have done</h1>
+        <div id="projectsContainer" class="projectsContainer">
           <div class="projectContainer projectCard">
             <img
               src="images/tracknShare.png"
@@ -132,7 +135,6 @@
               loading="lazy"
               class="projectPic"
             />
-            <h3 class="projectTitle">TracknShare Fitness Tracker</h3>
             <p class="projectDetails">
               TracknShare was crafted during my Android Mobile Development
               module. This app lets users effortlessly track their runs, showing
@@ -149,7 +151,6 @@
               loading="lazy"
               class="projectPic"
             />
-            <h3 class="projectTitle">Eventsly</h3>
             <p class="projectDetails">
               Eventsly was created during my iOS Mobile App Development course.
               This app helps people of all ages discover their interests by
@@ -166,7 +167,6 @@
               loading="lazy"
               class="projectPic"
             />
-            <h3 class="projectTitle">Internship at OCBC</h3>
             <p class="projectDetails">
               A memorable experience in my career journey was my internship at
               OCBC. I started as an intern in the microservices team, assisting
@@ -180,13 +180,14 @@
         </div>
         <div class="footerContainer">
           <footer>
-            <a href="https://github.com/alanantony24">My Github</a><br />
+            <a href="https://github.com/alanantony24"><i class="lab la-github la-3x"></i></a><br />
             <a href="https://www.linkedin.com/in/alan-antony-james/"
-              >My LinkedIn</a
+              ><i class="lab la-linkedin-in la-3x"></i></a
             >
           </footer>
         </div>
       </div>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>
