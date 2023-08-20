@@ -132,8 +132,15 @@
 }
 
 .projectContainer p {
-  padding: 20px;
+  padding: 10px;
   line-height: 25px;
+  text-align: justify;
+}
+
+.projectContainer > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .projectTitle {
