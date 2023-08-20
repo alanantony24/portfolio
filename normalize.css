@@ -46,6 +46,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background-image: url('images/pattern.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	line-height: 1;
 }
 ol, ul {
