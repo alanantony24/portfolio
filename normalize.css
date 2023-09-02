@@ -31,7 +31,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	line-height: 50px;
-	color: white;
+	color: black;
 }
 
 nav {
@@ -55,7 +55,7 @@ body {
 }
 
 a {
-	color: white;
+	color: black;
 }
 
 ol, ul {
